@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-container {
+  display: flex;
+  margin-bottom: 20px;
+  outline: #d5d5d5;
+}
+
+.search-input {
+  flex: 1;
+  margin-right: 20px;
+  padding-left: 10px;
+  color: #f44b34;
+  font-weight: bolder;
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: #d03f2b;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  letter-spacing: 5px;
+}
+.search-button:hover {
+  background-color: white;
+  border: 1px solid #d03f2b;
+  color: #d03f2b;
+}
+
+#loader {
+  color: #606060;
+  text-align: center;
+}
+
+.results {
+  margin: 30px 0;
+  padding: 10px;
+}
+
+.book {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  width: auto;
+  border: 2px solid #d03f2b;
+  border-radius: 6px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.book-text-content {
+  width: auto;
+}
+
+.book-title {
+  margin: 0;
+  padding: 5px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #d03f2b;
+}
+
+.book-author {
+  margin: 0;
+  background-color: #d03f2b;
+  padding: 5px 10px;
+  font-style: italic;
+  color: white;
+  border-radius: 10px;
+}
+
+.book-img {
+  position: relative;
+  top: 5px;
+  left: 0;
+  border-radius: 50%;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bolder;
+  color: #f44b34;
+}
+
+.pagination-button {
+  cursor: pointer;
+  margin: 0 5px;
+  border: 2px solid #d03f2b;
+  border-radius: 3px;
+  background-color: white;
+  padding: 5px 10px;
+  color: #d03f2b;
+  letter-spacing: 5px;
+}
+
+.pagination-button:hover {
+  background-color: #d03f2b;
+  color: white;
+}
+
+.current-page {
+  font-weight: bold;
+}
+
+.disabled,
+.disabled:hover {
+  cursor: none;
+  border: transparent;
+  background-color: #d5d5d5;
+  color: white;
+}
